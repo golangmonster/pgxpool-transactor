@@ -13,5 +13,18 @@ go get github.com/golangmonster/pgxpool-transactor/v1
 
 ## Usage
 ```go
+import pgxtransactor "github.com/golangmonster/pgxpool-transactor"
 
+
+type repository struct {
+	pool *pgxtransactor.Pool
+	pgxpool.Transactor
+}
+
+func New(pool *pgxpool.Pool) *repository {
+	return &repository{
+		pool:       pool,
+		Transactor: pool,
+	}
+}
 ```

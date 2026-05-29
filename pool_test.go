@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/golangmonster/pgxpool-transactor/test"
+	"github.com/golangmonster/pgxtransactor/test"
 	"github.com/jackc/pgx/v5"
 	"github.com/stretchr/testify/assert"
 )
