@@ -1,4 +1,4 @@
-module github.com/golangmonster/pgxpool-transactor
+module github.com/golangmonster/pgxpool-transactor/v1
 
 go 1.25.0
 
