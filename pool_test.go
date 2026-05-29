@@ -220,8 +220,6 @@ func TestInTxPanicRollback(t *testing.T) {
 			}
 
 			panic("AAAAAAA")
-
-			return nil
 		})
 	})
 
